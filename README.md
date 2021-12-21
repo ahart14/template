@@ -24,7 +24,7 @@ Make sure to properly credit:
 - Write steps for starting new project from repo
 - JS for cards
 - Other components? General app architecture improvements
--- Media 
+  - Media componenent, etc 
 - Clean up css - redundant/unnecessary
 - Break up into Sass components
 - Favicon

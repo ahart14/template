@@ -12,18 +12,18 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 body {
-  border-top: 5px solid #0b0c0c;
+  border-top: 5px solid #2d3748;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 100%;
-  color: #0b0c0c;
+  color: #2d3748;
 }
 kbd {
   /*font-family: "Fira Mono";*/
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 0.0625rem 0.5rem;
   border-radius: 0.125rem;
-  border: 1px solid #0b0c0c;
+  border: 1px solid #2d3748;
   box-shadow: 1px 1px 0 currentColor, 1px 1px 0 currentColor;
 }
 table {
@@ -86,7 +86,7 @@ main {
 .heading {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f2f7f9;
+  background-color: #edf2f7;
 }
 @media (min-width: 37.5em) {
   .heading {
@@ -269,8 +269,8 @@ main {
 .content pre {
   overflow-x: auto;
   max-width: 100%;
-  background: linear-gradient(#fffde6 100%, #0b0c0c),
-    linear-gradient(#0b0c0c, #fffde6 0%) 100% 0,
+  background: linear-gradient(#fffde6 100%, #2d3748),
+    linear-gradient(#2d3748, #fffde6 0%) 100% 0,
     radial-gradient(
       farthest-side at 0% 50%,
       rgba(144, 134, 9, 0.5),
@@ -287,7 +287,7 @@ main {
   background-size: 8px 100%, 8px 100%, 8px 100%, 8px 100%;
   background-attachment: local, local, scroll, scroll;
   /* font-family: "Fira Mono", Monaco, "Courier New", "Courier", monospace; */
-  color: #0b0c0c;
+  color: #2d3748;
   margin-bottom: 25px;
   padding: 20px;
   max-width: 900px;
@@ -347,8 +347,8 @@ main {
   font-style: italic;
   margin-bottom: 25px;
   padding: 0 20px 0 18px;
-  color: #0b0c0c;
-  border-left: 3px solid #0b0c0c;
+  color: #2d3748;
+  border-left: 3px solid #2d3748;
 }
 .content blockquote cite {
   font-weight: bold;
@@ -480,7 +480,7 @@ iframe {
   letter-spacing: -0.03em;
 }
 .header-logo a {
-  color: #0b0c0c;
+  color: #2d3748;
   text-decoration: none;
 }
 @media (min-width: 33.125em) {
@@ -514,7 +514,7 @@ iframe {
   }
 }
 .footer {
-  background-color: #f2f7f9;
+  background-color: #edf2f7;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -578,7 +578,7 @@ iframe {
   }
 }
 .footer a {
-  color: #0b0c0c;
+  color: #2d3748;
 }
 .nav ul {
   list-style: none;
@@ -612,28 +612,28 @@ iframe {
   outline-offset: -3px;
 }
 .nav a:hover {
-  color: #0b0c0c;
+  color: #2d3748;
 }
 .nav a:active,
 .nav a[aria-current="page"]:active {
-  background-color: #f2f7f9;
+  background-color: #edf2f7;
 }
 .nav a:active {
-  background-color: #f2f7f9;
-  border-color: #f2f7f9;
+  background-color: #edf2f7;
+  border-color: #edf2f7;
 }
 @media (min-width: 23.4375em) {
   .nav a[aria-current="page"]:active {
-    border-color: #0b0c0c;
+    border-color: #2d3748;
   }
 }
 .nav a[aria-current="page"] {
   font-weight: bold;
-  color: #0b0c0c;
+  color: #2d3748;
 }
 @media (min-width: 23.4375em) {
   .nav a[aria-current="page"] {
-    border-bottom: 5px solid #0b0c0c;
+    border-bottom: 5px solid #2d3748;
   }
 }
 .articleList .articleList-articleTitle {
@@ -653,8 +653,8 @@ iframe {
   background-color: #f9fafb;
 }
 .heading-caption--article {
-  border: 2px solid #0b0c0c;
-  color: #0b0c0c !important;
+  border: 2px solid #2d3748;
+  color: #2d3748 !important;
   letter-spacing: 0em;
   padding: 1px 5px;
 }
@@ -737,7 +737,7 @@ iframe {
   width: 100%;
   box-sizing: border-box;
   font-family: inherit;
-  background-color: #f2f7f9;
+  background-color: #edf2f7;
   box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   font-size: 1.125rem;
   line-height: 1.25rem;
