@@ -6,13 +6,13 @@
     <div class="header-nav">
       <nav class="nav">
         <ul>
-        {%- for item in navigation.items %}
+        {% for item in navigation.items %}
         <li>
           <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
             >{{ item.text }}</a
           >
         </li>
-        {% endfor -%}
+        {% endfor %}
         </ul>
       </nav>
     </div>

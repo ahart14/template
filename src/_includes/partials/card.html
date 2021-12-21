@@ -1,7 +1,7 @@
 <div class="pageContent">
   <div class="cards">
     <ul>
-    {%- for project in collections.projects -%}
+    {% for project in collections.projects %}
       <li class="card">
         <div class="img"><img src="{{ project.data.image }}" alt=""></div>
         <div class="text">
@@ -10,7 +10,7 @@
           <small>Date: {{ project.data.date }}</small>
         </div>
       </li>
-      {%- endfor -%}
+      {% endfor %}
     </ul>
   </div>
 </div>
