@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
 </head>
 <body>
-{% include "partials/nav.html" %}
-{% include "partials/hero.html" %}
+{% include "partials/nav.njk" %}
+{% include "partials/hero.njk" %}
 
 {{ content | safe }}
 
-{% include "partials/footer.html" %}
+{% include "partials/footer.njk" %}
 
 <script href="{{ '/js/script.js' | url }}"></script>
 </body>

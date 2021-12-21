@@ -1,7 +1,7 @@
 ---
 title: 11ty template
 summary: This is the home page summary
-layout: base.html
+layout: base.njk
 ---
 <div class="content">
   <div class="content-measure">
@@ -22,7 +22,7 @@ layout: base.html
     </div>
   </div>
 </div>
-{% include 'partials/card.html' %}
+{% include 'partials/card.njk' %}
 <div class="content">
   <div class="content-measure">
     <div class="content-block">
@@ -31,14 +31,14 @@ layout: base.html
         <p>Add supporting content here.</p>
       </div>
       <div class="content-block2">
-        {% for post in collections.posts %}
+      {%- for post in collections.posts -%}
         <div class="publication">
           <h3 class="publication-title">
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
           </h3>
-          <p class="publication-meta">{{ post.data.summary }}</p>
+        <p class="publication-meta">{{ post.data.summary }}</p>
         </div>
-        {% endfor %}
+      {% endfor %}
       </div>
     </div>
   </div>
