@@ -1,0 +1,29 @@
+<!--
+<div class="pageContent">
+  <div class="introBits">
+  {%- for project in collections.projects -%}
+    <div class="introBits-bit">
+      <h2 class="h2"><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
+      <p class="p">{{ project.data.summary }}</p>
+      <p class="p"><a href="{{ project.url }}">Go to {{ project.data.title }}</a></p>
+    </div>
+    {%- endfor -%}
+  </div>
+</div>
+-->
+<div class="pageContent">
+  <div class="cards">
+    <ul>
+    {%- for project in collections.projects -%}
+      <li class="card">
+        <div class="img"><img src="{{ project.data.image }}" alt=""></div>
+        <div class="text">
+          <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
+          <p>{{ project.data.summary }}</p>
+          <small>Date: {{ project.data.date }}</small>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
