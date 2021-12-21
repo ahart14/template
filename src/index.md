@@ -22,7 +22,7 @@ layout: base.html
     </div>
   </div>
 </div>
-{% include "partials/card.html" %}
+{% include 'partials/card.html' %}
 <div class="content">
   <div class="content-measure">
     <div class="content-block">

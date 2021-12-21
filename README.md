@@ -22,7 +22,8 @@ Make sure to properly credit:
 
 ## Todo 
 - Write steps for starting new project from repo
-- JS for cards
+- Hover state for links
+- Button styles
 - Other components? General app architecture improvements
   - Media componenent, etc 
 - Clean up css - redundant/unnecessary
