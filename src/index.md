@@ -3,7 +3,6 @@ title: 11ty template
 summary: This is the home page summary
 layout: base.html
 ---
-
 <div class="content">
   <div class="content-measure">
     <div class="content-block">
@@ -23,7 +22,7 @@ layout: base.html
     </div>
   </div>
 </div>
-{% include "/partials/card.html" %}
+{% include "partials/card.html" %}
 <div class="content">
   <div class="content-measure">
     <div class="content-block">
